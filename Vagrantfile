@@ -5,15 +5,14 @@ Vagrant.configure(2) do |config|
   config.vm.network :private_network, ip: '10.20.30.40'
 
   config.vm.provision :shell, inline: <<-SH
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y update
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y upgrade && apt-get -y install \
 autoconf \
 automake \
 bison \
 build-essential \
 libtool \
 libxml2-dev \
+ntp \
 re2c \
 valgrind
   SH
