@@ -15,7 +15,5 @@ libtool \
 libxml2-dev \
 re2c \
 valgrind
-git clone https://github.com/php/php-src.git
-sudo chown -R vagrant:vagrant php-src/
   SH
 end
