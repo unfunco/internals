@@ -12,7 +12,6 @@ autoconf \
 automake \
 bison \
 build-essential \
-git \
 libtool \
 libxml2-dev \
 re2c \
