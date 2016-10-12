@@ -10,6 +10,7 @@ autoconf \
 automake \
 bison \
 build-essential \
+gdb \
 libtool \
 libxml2-dev \
 ntp \
