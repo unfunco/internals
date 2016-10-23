@@ -50,12 +50,12 @@ Tests passed    :  918 ( 98.7%) (100.0%)
 ```
 
 If you step in and out of playing with internals with the delays that
-I am guilty of, then it's possible that the time on the guest machine can
-become out of synchronisation, run `make clean` to fix this issue.
+I am guilty of, run `make clean` to fix any issues with `make` failing
+due to clock skew..
 
 ## Todo
 
-* [ ] Add aliases to each compilation and testing
+* [ ] Add aliases to ease compilation and testing
 
 ## License
 
