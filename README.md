@@ -51,11 +51,10 @@ Tests passed    :  918 ( 98.7%) (100.0%)
 
 If you step in and out of playing with internals with the delays that
 I am guilty of, then it's possible that the time on the guest machine can
-become out of synchronisation, run `dpkg-reconfigure ntp` to fix this issue.
+become out of synchronisation, run `make clean` to fix this issue.
 
 ## Todo
 
-* [ ] Copy .editorconfig with PHP coding standards to the guest machine
 * [ ] Add aliases to each compilation and testing
 
 ## License
